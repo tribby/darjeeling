@@ -1,7 +1,7 @@
 /*
-// Darjeeling.js v0.1.0
+// Darjeeling.js v0.1.1
 
-// Copyright (c) 2013, Balin Hansen - Clearhour Research Group
+// Copyright (c) 2013, Clearhour Research Group
 // All rights reserved.
 
 // Redistribution and use in source and binary forms, with or without
@@ -31,3 +31,19 @@
 
 
 // Define Darjeeling's native structures: 
+
+
+var darjeeling = new Object();
+
+darjeeling.version = "0.1.1";
+darjeeling.context = "client/javascript";
+darjeeling.securelevel = 9999;
+
+darjeeling.session = new Array();
+darjeeling.computer = new Array();
+darjeeling.architecture = new Array();
+darjeeling.os = new Array();
+darjeeling.network = new Array();
+darjeeling.kernel = new Array();
+darjeeling.filesystem = new Array();
+
