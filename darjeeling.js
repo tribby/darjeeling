@@ -35,14 +35,25 @@
 
 var darjeeling = new Object();
 
-darjeeling.version = "0.1.1";
+darjeeling.version = new Object();
+darjeeling.version.build = "0.1.1";
 darjeeling.context = "client/javascript";
-darjeeling.securelevel = 9999;
+darjeeling.secure = 9999;
 
-darjeeling.session = new Array();
-darjeeling.computer = new Array();
-darjeeling.architecture = new Array();
-darjeeling.os = new Array();
-darjeeling.network = new Array();
-darjeeling.kernel = new Array();
-darjeeling.filesystem = new Array();
+darjeeling.sess = new Object();
+darjeeling.sys = new Object();
+darjeeling.arch = new Object();
+darjeeling.os = new Object();
+darjeeling.net = new Object();
+darjeeling.kern = new Object();
+darjeeling.file = new Object();
+darjeeling.lang = new Object();
+darjeeling.env = new Object()
+darjeeling.os = new Object();
+darjeeling.crypt = new Object();
+darjeeling.math = new Object();
+darjeeling.lambda = new Object();
+darjeeling.render = new Object();
+darjeeling.schedule = new Object();
+darjeeling.user = new Object();
+
