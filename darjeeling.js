@@ -35,11 +35,6 @@
 
 var darjeeling = new Object();
 
-darjeeling.version = new Object();
-darjeeling.version.build = "0.1.1";
-darjeeling.context = "client/javascript";
-darjeeling.secure = 9999;
-
 darjeeling.sess = new Object();
 darjeeling.sys = new Object();
 darjeeling.arch = new Object();
@@ -56,4 +51,6 @@ darjeeling.lambda = new Object();
 darjeeling.render = new Object();
 darjeeling.schedule = new Object();
 darjeeling.user = new Object();
+darjeeling.program = new Object();
+
 
