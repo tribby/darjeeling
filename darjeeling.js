@@ -28,6 +28,7 @@
 
 */
 
+/* Darjeeling expands the definition of Turing-complete to include self-awareness. */
 
 
 // Define Darjeeling's native structures:
@@ -35,22 +36,12 @@
 
 var darjeeling = new Object();
 
-darjeeling.sess = new Object();
-darjeeling.sys = new Object();
-darjeeling.arch = new Object();
-darjeeling.os = new Object();
-darjeeling.net = new Object();
-darjeeling.kern = new Object();
+darjeeling.system = new Object();
+darjeeling.network = new Object();
+darjeeling.kernel = new Object();
 darjeeling.file = new Object();
-darjeeling.lang = new Object();
-darjeeling.env = new Object()
-darjeeling.os = new Object();
-darjeeling.crypt = new Object();
+darjeeling.code = new Object();
 darjeeling.math = new Object();
-darjeeling.lambda = new Object();
-darjeeling.render = new Object();
-darjeeling.schedule = new Object();
 darjeeling.user = new Object();
-darjeeling.program = new Object();
-
+darjeeling.time = new Object();
 
