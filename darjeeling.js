@@ -30,18 +30,15 @@
 
 /* Darjeeling expands the definition of Turing-complete to include self-awareness. */
 
-
+// Create a Darjeeling 
 // Define Darjeeling's native structures:
+// Subsystemst: Compute, Network, File, Control, Math, Automate, interact
 
 
-var darjeeling = new Object();
+var interact = new Object(); // Interact
 
-darjeeling.system = new Object();
-darjeeling.network = new Object();
-darjeeling.kernel = new Object();
-darjeeling.file = new Object();
-darjeeling.code = new Object();
-darjeeling.math = new Object();
-darjeeling.user = new Object();
-darjeeling.time = new Object();
+var interact.interact = new Object(); // Interact Subsystem
+
+var interact.interact.interact = new Object() // Interact Subsystem Interactions
+
 
