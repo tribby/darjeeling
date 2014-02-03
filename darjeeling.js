@@ -32,7 +32,7 @@
 
 // Create a Darjeeling 
 // Define Darjeeling's native structures:
-// Subsystemst: Compute, Network, File, Control, Math, Automate, interact
+// Subsystems: Compute, Network, File, Control, Math, Automate, interact
 
 
 var interact = new Object(); // Interact
